@@ -1,3 +1,12 @@
-Link para download do Git: https://git-scm.com/
+Principais comandos Git Bash:
 
-O Git Bash é um terminal extendido para otimizar o uso do Git
+- git status: mostra o estado no ciclo de vida do arquivo, no Git.
+- mkdir: cria uma pasta.
+- mv + “nome do arquivo” + “pasta que o arquivo será movido”: mover arquivo para outra pasta.
+- cd: entrar em outra pasta.
+- cd ..: voltar uma pasta.
+- git pull origin main: “puxa” o arquivo do GitHub, em caso de conflito no versionamento do código.
+- git clone “url…”: clona o repositório de um outro usuário no GitHub.
+- git add *: passa todos os arquivos do repositório para o estado de “unstage”
+- git commit: cria o “snapshot” (fotografia) – passando o diretório para um estado de Unmodified no ciclo de vida do Git.
+- git push origin main: enviar repositorio para o GitHub.
